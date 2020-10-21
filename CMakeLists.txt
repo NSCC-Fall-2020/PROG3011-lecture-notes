@@ -4,3 +4,5 @@ project(course_notes C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(course_notes main.c)
+add_executable(decisions decisions.c)
+add_executable(loops loops.c)
