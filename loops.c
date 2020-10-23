@@ -24,5 +24,20 @@ int main() {
         printf("nums[%i] = %i\n", i, nums[i]);
     }
 
+    /*
+    for (;;) {
+         run forever
+    }
+    */
+
+    for( int i=0, j=4; i < 4 && j > 0; i += 1, j--) {
+        printf("i = %i, j = %i\n", i, j);
+    }
+
+    for(;;i++){
+        if (i > 10) break;
+        printf("%i\n", i);
+    }
+
     return 0;
 }
